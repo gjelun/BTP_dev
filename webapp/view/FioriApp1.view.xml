@@ -1,0 +1,14 @@
+<mvc:View controllerName="project1.controller.FioriApp1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <Text id="_IDGenText" text="Hello there" >
+    </Text>
+    	<Label id="_IDGenLabel" text="Without Icon" class="sapUiSmallMarginTop sapUiTinyMarginBottom" />
+	<FeedInput id="_IDGenFeedInput"
+		post="onPost"
+		showIcon="false" />
+    </content>
+    </Page>
+</mvc:View>
